@@ -1,0 +1,1 @@
+http://www.mc.com/uploadimage_string.php?image=base64encode(x),../filename.extension
